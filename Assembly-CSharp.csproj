@@ -70,7 +70,6 @@
     <Compile Include="Assets\Enemy\ShootPattern\Array.cs" />
     <Compile Include="Assets\Enemy\ShootPattern\Circle.cs" />
     <Compile Include="Assets\Enemy\ShootPattern\Spiral.cs" />
-    <Compile Include="Assets\moveAnime.cs" />
     <Compile Include="Assets\script\movePlayer.cs" />
     <Compile Include="Assets\script\shoot.cs" />
     <Compile Include="Assets\script\Shooting1.cs" />

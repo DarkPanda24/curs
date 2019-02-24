@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 740943519896725969}
   m_Layer: 0
   m_Name: 200px-Th145Marisa
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
