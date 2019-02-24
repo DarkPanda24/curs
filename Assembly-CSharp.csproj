@@ -70,8 +70,11 @@
     <Compile Include="Assets\Enemy\ShootPattern\Array.cs" />
     <Compile Include="Assets\Enemy\ShootPattern\Circle.cs" />
     <Compile Include="Assets\Enemy\ShootPattern\Spiral.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\MainMenuScr.cs" />
     <Compile Include="Assets\moveAnime.cs" />
+=======
+>>>>>>> ef566921dd542551279e95c4f5d31cf02820b96e
     <Compile Include="Assets\script\movePlayer.cs" />
     <Compile Include="Assets\script\shoot.cs" />
     <Compile Include="Assets\script\Shooting1.cs" />

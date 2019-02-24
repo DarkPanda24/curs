@@ -8,22 +8,20 @@ public class Shooting1 : MonoBehaviour
     public float lifeTime;
     public float distance;
     public int damage;
-
+    public RaycastHit2D hitInfo;
     public LayerMask whatIsSolid;
     void Start()
     {
         Invoke("DestroyProjectile", lifeTime);
     }
 
-    
+
     void Update()
     {
-        RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, transform.up, distance, whatIsSolid);
-        if (hitInfo.collider != null )
+        hitInfo = Physics2D.Raycast(transform.position, transform.up, distance, whatIsSolid);
+        if (hitInfo.collider.CompareTag("Enemy"))
         {
-            if (hitInfo.collider.CompareTag("Enemy"))
-            {
-            }
+            Destroy(hitInfo.collider.gameObject);
             DestroyProjectile();
         }
         transform.Translate(Vector2.up * speed * Time.deltaTime);

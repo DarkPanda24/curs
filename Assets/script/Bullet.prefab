@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5660138728206845891}
   - component: {fileID: 5691038594336674867}
   - component: {fileID: 736584485210841604}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117,11 +117,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   lifeTime: 2
-  distance: 3
+  distance: 2
   damage: 5
   whatIsSolid:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
 --- !u!58 &736584485210841604
 CircleCollider2D:
   m_ObjectHideFlags: 0
