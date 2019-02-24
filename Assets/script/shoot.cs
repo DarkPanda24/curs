@@ -12,8 +12,10 @@ public class shoot : MonoBehaviour
     {
         if ((Input.GetKey(KeyCode.Z)) && (shootnow <= Time.time || shootnow == 0f))
         {
+            SoundManagerScript.PlaySounnd("fire");
             shootnow = deleyFire + Time.time;
             Shooting();
+
         }
     }
     void Shooting()
